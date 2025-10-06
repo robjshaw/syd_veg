@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sydney Vegetarian & Vegan Restaurants Explorer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold text-green-700 mb-6">Sydney Vegetarian & Vegan Restaurants Explorer</h1>
+
+        <p>Based on two years of recommendations, reviews, and hidden gems discovered on <a href="https://www.reddit.com/r/foodies_sydney/" style="color:blue;">https://www.reddit.com/r/foodies_sydney/</a></p>
+        
+        <br clear="all" />
+
+        <p>No ad's or tracking this was built to say thank you to the community for the recommendations and to have handy when a vegan friend is visiting sydney :)</p>
+        
+        <br clear="all" />
+
+        <p>Built on a sunday arvo by <a href="https://www.reddit.com/r/foodies_sydney/" style="color:blue;">https://github.com/robjshaw/</a></p>
+
+        <br clear="all" />
+
+        <!-- Filters -->
+        <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">Filter by Cuisine Type</h2>
+            <div id="filters" class="flex flex-wrap gap-2"></div>
+            <button id="clearFilters" class="mt-4 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 transition">
+                Clear All Filters
+            </button>
+        </div>
+
+        <!-- Map -->
+        <div class="bg-white rounded-lg shadow-md p-4 mb-6">
+            <div id="map" class="rounded-lg"></div>
+        </div>
+
+        <!-- Loading indicator -->
+        <div id="loading" class="text-center text-gray-600 mb-4">
+            <p>Loading restaurants...</p>
+        </div>
+
+        <!-- Restaurant List -->
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <h2 class="text-2xl font-semibold mb-4">Restaurant List</h2>
+            <div id="restaurantList" class="space-y-4"></div>
+        </div>
+    </div>
+
+    <script>
+        let map;
+        let markers = [];
+        let restaurants = [];
+        let activeFilters = new Set();
+        let infoWindow;
+
+        // Initialize the map
+        async function initMap() {
+            // Center on Sydney
+            const sydney = { lat: -33.8688, lng: 151.2093 };
+
+            map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 12,
+                center: sydney,
+            });
+
+            infoWindow = new google.maps.InfoWindow();
+
+            // Load restaurant data
+            await loadRestaurants();
+        }
+
+        // Load restaurants from JSON file
+        async function loadRestaurants() {
+            try {
+                const response = await fetch('syd-veg-geocoded.json');
+                restaurants = await response.json();
+
+                // Extract all unique cuisine types
+                const cuisineTypes = new Set();
+                restaurants.forEach(restaurant => {
+                    restaurant.cuisine_types.forEach(type => cuisineTypes.add(type));
+                });
+
+                // Create filter buttons
+                createFilterButtons(Array.from(cuisineTypes).sort());
+
+                // Display restaurants (already geocoded)
+                displayRestaurants(restaurants);
+
+                document.getElementById('loading').style.display = 'none';
+            } catch (error) {
+                console.error('Error loading restaurants:', error);
+                document.getElementById('loading').innerHTML = '<p class="text-red-600">Error loading restaurant data</p>';
+            }
+        }
+
+        // Create filter buttons for cuisine types
+        function createFilterButtons(cuisineTypes) {
+            const filtersDiv = document.getElementById('filters');
+
+            cuisineTypes.forEach(type => {
+                const button = document.createElement('button');
+                button.textContent = type;
+                button.className = 'px-4 py-2 bg-gray-200 text-gray-700 rounded-full hover:bg-gray-300 transition';
+                button.dataset.cuisine = type;
+
+                button.addEventListener('click', () => {
+                    if (activeFilters.has(type)) {
+                        activeFilters.delete(type);
+                        button.className = 'px-4 py-2 bg-gray-200 text-gray-700 rounded-full hover:bg-gray-300 transition';
+                    } else {
+                        activeFilters.add(type);
+                        button.className = 'px-4 py-2 bg-green-600 text-white rounded-full hover:bg-green-700 transition';
+                    }
+
+                    filterRestaurants();
+                });
+
+                filtersDiv.appendChild(button);
+            });
+
+            // Clear filters button
+            document.getElementById('clearFilters').addEventListener('click', () => {
+                activeFilters.clear();
+                document.querySelectorAll('#filters button').forEach(btn => {
+                    btn.className = 'px-4 py-2 bg-gray-200 text-gray-700 rounded-full hover:bg-gray-300 transition';
+                });
+                filterRestaurants();
+            });
+        }
+
+
+        // Display restaurants on map and list
+        function displayRestaurants(restaurantsToDisplay) {
+            // Clear existing markers
+            markers.forEach(marker => marker.setMap(null));
+            markers = [];
+
+            // Clear restaurant list
+            const listDiv = document.getElementById('restaurantList');
+            listDiv.innerHTML = '';
+
+            // Add markers and list items
+            restaurantsToDisplay.forEach((restaurant, index) => {
+                if (restaurant.coordinates) {
+                    // Create marker
+                    const marker = new google.maps.Marker({
+                        position: { lat: restaurant.coordinates.lat, lng: restaurant.coordinates.lng },
+                        map: map,
+                        title: restaurant.title,
+                    });
+
+                    // Add click listener to marker
+                    marker.addListener('click', () => {
+                        const content = `
+                            <div class="p-2">
+                                <h3 class="font-bold text-lg mb-2">${restaurant.title}</h3>
+                                <p class="text-sm text-gray-600 mb-2">${restaurant.location}</p>
+                                <p class="text-sm mb-2"><strong>Cuisine:</strong> ${restaurant.cuisine_types.join(', ')}</p>
+                                <p class="text-sm mb-2"><strong>Specialties:</strong> ${restaurant.specialties.join(', ')}</p>
+                                ${restaurant.votes ? `<p class="text-sm mb-2"><strong>Votes:</strong> ${restaurant.votes}</p>` : ''}
+                                <p class="text-sm text-gray-700">${restaurant.summary_of_comments}</p>
+                            </div>
+                        `;
+                        infoWindow.setContent(content);
+                        infoWindow.open(map, marker);
+                    });
+
+                    markers.push(marker);
+
+                    // Create list item
+                    const listItem = document.createElement('div');
+                    listItem.className = 'border-b border-gray-200 pb-4 hover:bg-gray-50 p-4 rounded cursor-pointer transition';
+                    listItem.innerHTML = `
+                        <h3 class="font-bold text-lg text-green-700">${restaurant.title}</h3>
+                        <p class="text-sm text-gray-600">${restaurant.location}</p>
+                        <p class="text-sm text-gray-500">${restaurant.coordinates.formatted_address}</p>
+                        <div class="flex flex-wrap gap-1 mt-2">
+                            ${restaurant.cuisine_types.map(type =>
+                                `<span class="px-2 py-1 bg-green-100 text-green-800 text-xs rounded">${type}</span>`
+                            ).join('')}
+                        </div>
+                        <p class="text-sm mt-2"><strong>Specialties:</strong> ${restaurant.specialties.join(', ')}</p>
+                        ${restaurant.votes ? `<p class="text-sm text-gray-600 mt-1">${restaurant.votes} votes</p>` : ''}
+                        <p class="text-sm text-gray-700 mt-2">${restaurant.summary_of_comments}</p>
+                    `;
+
+                    // Click list item to pan to marker
+                    listItem.addEventListener('click', () => {
+                        map.setCenter({ lat: restaurant.coordinates.lat, lng: restaurant.coordinates.lng });
+                        map.setZoom(15);
+                        google.maps.event.trigger(marker, 'click');
+                    });
+
+                    listDiv.appendChild(listItem);
+                }
+            });
+
+            // Adjust map bounds to fit all markers
+            if (markers.length > 0) {
+                const bounds = new google.maps.LatLngBounds();
+                markers.forEach(marker => bounds.extend(marker.getPosition()));
+                map.fitBounds(bounds);
+            }
+        }
+
+        // Filter restaurants based on selected cuisine types
+        function filterRestaurants() {
+            if (activeFilters.size === 0) {
+                displayRestaurants(restaurants);
+            } else {
+                const filtered = restaurants.filter(restaurant => {
+                    return restaurant.cuisine_types.some(type => activeFilters.has(type));
+                });
+                displayRestaurants(filtered);
+            }
+        }
+
+        // Load Google Maps API
+        window.initMap = initMap;
+    </script>
+
+    <!-- Replace YOUR_API_KEY with your actual Google Maps API key -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsxxQuFb9kA9fK1SsS6n2s3w_1-qUvJj0&callback=initMap" async defer></script>
+</body>
+</html>

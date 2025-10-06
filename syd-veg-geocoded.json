@@ -1,0 +1,1030 @@
+[
+  {
+    "title": "Beirut Falafel",
+    "location": "Darlington/Abercrombie St",
+    "cuisine_types": [
+      "Middle Eastern",
+      "Vegan"
+    ],
+    "votes": 150,
+    "specialties": [
+      "Vegan chicken",
+      "Falafel"
+    ],
+    "summary_of_comments": "Praised for falafel and vegan chicken, great crunch, affordable and popular for lunch.",
+    "coordinates": {
+      "lat": -33.89127670000001,
+      "lng": 151.1959026,
+      "formatted_address": "254 Abercrombie St, Darlington NSW 2008, Australia"
+    }
+  },
+  {
+    "title": "Ballsy Tea",
+    "location": "North Sydney",
+    "cuisine_types": [
+      "Bubble Tea",
+      "Cafe",
+      "Vegan"
+    ],
+    "votes": 40,
+    "specialties": [
+      "Vegan ham toastie",
+      "Taro bubble tea"
+    ],
+    "summary_of_comments": "All-natural, fully vegan menu; unique flavours loved by everyone.",
+    "coordinates": {
+      "lat": -33.8411425,
+      "lng": 151.2071936,
+      "formatted_address": "Shop 3/5 Blue St, North Sydney NSW 2060, Australia"
+    }
+  },
+  {
+    "title": "The Chippo Hotel (Mama B's Bistro)",
+    "location": "Chippendale",
+    "cuisine_types": [
+      "Irish",
+      "Pub",
+      "Vegan"
+    ],
+    "votes": 115,
+    "specialties": [
+      "Vegan spice bag",
+      "Plant-based chicken substitute"
+    ],
+    "summary_of_comments": "Australia’s first vegan pub; praised for value and plant-based innovation.",
+    "coordinates": {
+      "lat": -33.8874346,
+      "lng": 151.1986365,
+      "formatted_address": "87-91 Abercrombie St, Chippendale NSW 2008, Australia"
+    }
+  },
+  {
+    "title": "Flyover Fritterie",
+    "location": "Redfern",
+    "cuisine_types": [
+      "Vegetarian",
+      "Indian"
+    ],
+    "votes": 16,
+    "specialties": [
+      "Vegetarian Indian street fritters"
+    ],
+    "summary_of_comments": "All-vegetarian menu, raved-about fritters.",
+    "coordinates": {
+      "lat": -33.8930104,
+      "lng": 151.199849,
+      "formatted_address": "88 Regent St, Redfern NSW 2016, Australia"
+    }
+  },
+  {
+    "title": "Tian Ci Vegan",
+    "location": "Sydney",
+    "cuisine_types": [
+      "Vegetarian",
+      "Chinese"
+    ],
+    "votes": null,
+    "specialties": [
+      "Authentic Chinese vegetarian"
+    ],
+    "summary_of_comments": "Great technique, quality produce.",
+    "coordinates": {
+      "lat": -33.8883498,
+      "lng": 151.1962467,
+      "formatted_address": "101 Cleveland St, Darlington NSW 2008, Australia"
+    }
+  },
+  {
+    "title": "Golden Lotus",
+    "location": "Newtown",
+    "cuisine_types": [
+      "Vietnamese",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Laksa",
+      "Saigonese broken rice"
+    ],
+    "summary_of_comments": "Famous for vegan Vietnamese laksa, loved for variety.",
+    "coordinates": {
+      "lat": -33.8982724,
+      "lng": 151.1780558,
+      "formatted_address": "341 King St, Newtown NSW 2042, Australia"
+    }
+  },
+  {
+    "title": "Don Fred",
+    "location": "Newtown",
+    "cuisine_types": [
+      "Italian",
+      "Burgers",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Handmade pasta",
+      "Vegan burgers"
+    ],
+    "summary_of_comments": "Consistently praised, high online rating.",
+    "coordinates": {
+      "lat": -33.8925776,
+      "lng": 151.1867728,
+      "formatted_address": "28 King St, Newtown NSW 2042, Australia"
+    }
+  },
+  {
+    "title": "Green Gourmet",
+    "location": "St Leonard's",
+    "cuisine_types": [
+      "Vegan",
+      "Yum Cha"
+    ],
+    "votes": null,
+    "specialties": [
+      "Vegan yum cha",
+      "Banqueting"
+    ],
+    "summary_of_comments": "Standout for weekend vegan yum cha.",
+    "coordinates": {
+      "lat": -33.8096558,
+      "lng": 151.1452717,
+      "formatted_address": "Unit 9/79-85 Mars Rd, Lane Cove West NSW 2066, Australia"
+    }
+  },
+  {
+    "title": "Veggie House",
+    "location": "Canley Vale",
+    "cuisine_types": [
+      "Vegan",
+      "Asian Fusion"
+    ],
+    "votes": null,
+    "specialties": [
+      "Signature noodles",
+      "Bimbimbap"
+    ],
+    "summary_of_comments": "Fusion menu, lively local following.",
+    "coordinates": {
+      "lat": -33.8870969,
+      "lng": 150.9430211,
+      "formatted_address": "3/5 Canley Vale Rd, Canley Vale NSW 2166, Australia"
+    }
+  },
+  {
+    "title": "Chatkazz",
+    "location": "Harris Park",
+    "cuisine_types": [
+      "Indian",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Dosas",
+      "Street snacks"
+    ],
+    "summary_of_comments": "Huge range, authentic flavours.",
+    "coordinates": {
+      "lat": -33.8217573,
+      "lng": 151.0084024,
+      "formatted_address": "Shop 4-6/14-20 Station St E, Harris Park NSW 2150, Australia"
+    }
+  },
+  {
+    "title": "Kindred",
+    "location": "Sydney",
+    "cuisine_types": [
+      "Vegetarian",
+      "Modern Australian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Vegetarian set menu"
+    ],
+    "summary_of_comments": "Inventive, highly rated veg-focused set menus.",
+    "coordinates": {
+      "lat": -33.8636867,
+      "lng": 151.2036276,
+      "formatted_address": "Level 9/207 Kent St, Sydney NSW 2000, Australia"
+    }
+  },
+  {
+    "title": "Vin Fafe",
+    "location": "Sydney",
+    "cuisine_types": [
+      "Vietnamese",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Tofu & mushroom banh mi"
+    ],
+    "summary_of_comments": "Tofu banh mi described as best in Sydney.",
+    "coordinates": {
+      "lat": -33.8748714,
+      "lng": 151.2181649,
+      "formatted_address": "150 Bourke St, Darlinghurst NSW 2010, Australia"
+    }
+  },
+  {
+    "title": "An Lac",
+    "location": "Cabramatta",
+    "cuisine_types": [
+      "Vietnamese",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Vietnamese soups"
+    ],
+    "summary_of_comments": "Known for variety, authentic flavour.",
+    "coordinates": {
+      "lat": -33.89512,
+      "lng": 150.9346561,
+      "formatted_address": "94B John St, Cabramatta NSW 2166, Australia"
+    }
+  },
+  {
+    "title": "An Nien",
+    "location": "Cabramatta",
+    "cuisine_types": [
+      "Vietnamese",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Mock crab soup",
+      "Vietnamese pancakes"
+    ],
+    "summary_of_comments": "Worth the journey for vegan diners.",
+    "coordinates": {
+      "lat": -33.8940012,
+      "lng": 150.9283445,
+      "formatted_address": "Cabramatta NSW 2166, Australia"
+    }
+  },
+  {
+    "title": "Tan Binh Mnh",
+    "location": "Cabramatta",
+    "cuisine_types": [
+      "Vietnamese",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Vegan banh mi"
+    ],
+    "summary_of_comments": "Frequent recommendation for vegan banh mi.",
+    "coordinates": {
+      "lat": -33.8945933,
+      "lng": 150.9372286,
+      "formatted_address": "3/42-44 Arthur St, Cabramatta NSW 2166, Australia"
+    }
+  },
+  {
+    "title": "Pizza Madre",
+    "location": "Marrickville",
+    "cuisine_types": [
+      "Italian",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Sourdough pizza"
+    ],
+    "summary_of_comments": "Creative and delicious pizzas, great for veggies.",
+    "coordinates": {
+      "lat": -33.90977590000001,
+      "lng": 151.1619643,
+      "formatted_address": "2/205 Victoria Rd, Marrickville NSW 2204, Australia"
+    }
+  },
+  {
+    "title": "Barzaari",
+    "location": "Marrickville",
+    "cuisine_types": [
+      "Mediterranean",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Mediterranean mezze"
+    ],
+    "summary_of_comments": "Vegetarian-strong menu, chef-led creativity.",
+    "coordinates": {
+      "lat": -33.902883,
+      "lng": 151.165694,
+      "formatted_address": "65 Addison Rd, Marrickville NSW 2204, Australia"
+    }
+  },
+  {
+    "title": "Jambo Jambo",
+    "location": "Glebe",
+    "cuisine_types": [
+      "African",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Ethiopian platters"
+    ],
+    "summary_of_comments": "Unique, very vegetarian friendly, group share platters.",
+    "coordinates": {
+      "lat": -33.882389,
+      "lng": 151.1903813,
+      "formatted_address": "89 Glebe Point Rd, Glebe NSW 2037, Australia"
+    }
+  },
+  {
+    "title": "Grana",
+    "location": "Circular Quay",
+    "cuisine_types": [
+      "Italian",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Fresh pasta"
+    ],
+    "summary_of_comments": "Impressive pasta, vegan-antipasti options.",
+    "coordinates": {
+      "lat": -33.8625166,
+      "lng": 151.2109494,
+      "formatted_address": "Ground Floor/5-7 Young St, Sydney NSW 2000, Australia"
+    }
+  },
+  {
+    "title": "Lestari Resto",
+    "location": "Sydney",
+    "cuisine_types": [
+      "Indonesian",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Indonesian veg platters"
+    ],
+    "summary_of_comments": "Recommended for diverse plant-based options.",
+    "coordinates": {
+      "lat": -33.8834845,
+      "lng": 151.2026292,
+      "formatted_address": "96/732 Harris St, Ultimo NSW 2007, Australia"
+    }
+  },
+  {
+    "title": "Yunn",
+    "location": "Sydney",
+    "cuisine_types": [
+      "Chinese",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Yunnan style veg"
+    ],
+    "summary_of_comments": "Celebrated for creative veg cooking techniques.",
+    "coordinates": {
+      "lat": -33.8746681,
+      "lng": 151.2063283,
+      "formatted_address": "Shop 901/ Level 9/501 George St, Sydney NSW 2000, Australia"
+    }
+  },
+  {
+    "title": "Xinjiang Handmade Noodles",
+    "location": "Sydney",
+    "cuisine_types": [
+      "Chinese",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Hand-pulled noodles"
+    ],
+    "summary_of_comments": "Vegetarian options praised for texture and flavour.",
+    "coordinates": {
+      "lat": -33.795349,
+      "lng": 151.1850063,
+      "formatted_address": "1/84 Archer St, Chatswood NSW 2067, Australia"
+    }
+  },
+  {
+    "title": "Maydanoz",
+    "location": "Sydney",
+    "cuisine_types": [
+      "Turkish",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Chef-driven Turkish plates"
+    ],
+    "summary_of_comments": "Full veggie menu, high-end modern Turkish.",
+    "coordinates": {
+      "lat": -33.8662062,
+      "lng": 151.20647,
+      "formatted_address": "1/50 Carrington St, Sydney NSW 2000, Australia"
+    }
+  },
+  {
+    "title": "Spice Temple",
+    "location": "Sydney",
+    "cuisine_types": [
+      "Asian Fusion",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Vegan-friendly banquet"
+    ],
+    "summary_of_comments": "High-end group dining, flexible vegan options.",
+    "coordinates": {
+      "lat": -33.8660068,
+      "lng": 151.2101938,
+      "formatted_address": "10 Bligh St, Sydney NSW 2000, Australia"
+    }
+  },
+  {
+    "title": "Gigi's",
+    "location": "Newtown",
+    "cuisine_types": [
+      "Italian",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Neapolitan pizza"
+    ],
+    "summary_of_comments": "Classic vegan pizza, busy and reliable.",
+    "coordinates": {
+      "lat": -33.899248,
+      "lng": 151.1776294,
+      "formatted_address": "379 King St, Newtown NSW 2042, Australia"
+    }
+  },
+  {
+    "title": "I Should Be Souvlaki",
+    "location": "Newtown",
+    "cuisine_types": [
+      "Greek",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Greek souvlaki"
+    ],
+    "summary_of_comments": "Famed for authenticity, excellent for vegan takes on souvlaki.",
+    "coordinates": {
+      "lat": -33.8998306,
+      "lng": 151.1778513,
+      "formatted_address": "399 King St, Newtown NSW 2042, Australia"
+    }
+  },
+  {
+    "title": "Comeco",
+    "location": "Newtown",
+    "cuisine_types": [
+      "Japanese",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Vegan sushi",
+      "Onigiri"
+    ],
+    "summary_of_comments": "Creative vegan sushi and traditional riceballs.",
+    "coordinates": {
+      "lat": -33.90243280000001,
+      "lng": 151.1793906,
+      "formatted_address": "524A King St, Newtown NSW 2042, Australia"
+    }
+  },
+  {
+    "title": "Yellow",
+    "location": "Potts Point",
+    "cuisine_types": [
+      "Modern Australian",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Vegetarian tasting menu"
+    ],
+    "summary_of_comments": "Innovative, ever-changing tasting menus.",
+    "coordinates": {
+      "lat": -33.868713,
+      "lng": 151.2254304,
+      "formatted_address": "57 Macleay St, Potts Point NSW 2011, Australia"
+    }
+  },
+  {
+    "title": "Little Turtle",
+    "location": "Enmore",
+    "cuisine_types": [
+      "Thai",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Salt & pepper tofu",
+      "Pandan custard"
+    ],
+    "summary_of_comments": "Thai vegan modern twist, signature rolls and desserts.",
+    "coordinates": {
+      "lat": -33.899406,
+      "lng": 151.1704699,
+      "formatted_address": "10 Stanmore Rd, Enmore NSW 2042, Australia"
+    }
+  },
+  {
+    "title": "Vandal Taqueria",
+    "location": "Newtown",
+    "cuisine_types": [
+      "Mexican",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Banquet",
+      "Vegan tacos"
+    ],
+    "summary_of_comments": "Experimental vegan Mexican, popular banquets.",
+    "coordinates": {
+      "lat": -33.8984402,
+      "lng": 151.1758698,
+      "formatted_address": "59 Enmore Rd, Newtown NSW 2042, Australia"
+    }
+  },
+  {
+    "title": "Kimusabi",
+    "location": "Newtown",
+    "cuisine_types": [
+      "Japanese",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Sushi banquet"
+    ],
+    "summary_of_comments": "Vegan/vegetarian sushi banquet, creative and high quality.",
+    "coordinates": {
+      "lat": -33.8984402,
+      "lng": 151.1758698,
+      "formatted_address": "59 Enmore Rd, Newtown NSW 2042, Australia"
+    }
+  },
+  {
+    "title": "Mother Chu’s Vegetarian Kitchen",
+    "location": "Sydney",
+    "cuisine_types": [
+      "Chinese",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Classic Chinese vegetarian"
+    ],
+    "summary_of_comments": "Iconic, family vibe, comprehensive menu.",
+    "coordinates": {
+      "lat": -33.875925,
+      "lng": 151.207771,
+      "formatted_address": "367 Pitt St, Sydney NSW 2000, Australia"
+    }
+  },
+  {
+    "title": "Loving Hut",
+    "location": "Cabramatta",
+    "cuisine_types": [
+      "Vietnamese",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Banh cuon",
+      "Vegan hotpot"
+    ],
+    "summary_of_comments": "Extensive vegan menu with Vietnamese classics.",
+    "coordinates": {
+      "lat": -33.8957596,
+      "lng": 150.9360351,
+      "formatted_address": "227 Cabramatta Rd W, Cabramatta NSW 2166, Australia"
+    }
+  },
+  {
+    "title": "Two Chaps",
+    "location": "Marrickville",
+    "cuisine_types": [
+      "Cafe",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Vegetarian degustation",
+      "Housemade cakes"
+    ],
+    "summary_of_comments": "Cafe vibe, inventive veggie menu, loved for dinner degustation.",
+    "coordinates": {
+      "lat": -33.905543,
+      "lng": 151.162027,
+      "formatted_address": "122 Chapel St, Marrickville NSW 2204, Australia"
+    }
+  },
+  {
+    "title": "Bootleg Italian",
+    "location": "Paddington",
+    "cuisine_types": [
+      "Italian",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Vegan tasting menu"
+    ],
+    "summary_of_comments": "Reputation for vegan degustation, mixed but mostly positive.",
+    "coordinates": {
+      "lat": -33.8855384,
+      "lng": 151.2285897,
+      "formatted_address": "312 Oxford St, Paddington NSW 2021, Australia"
+    }
+  },
+  {
+    "title": "Bentley Restaurant & Bar",
+    "location": "Sydney CBD",
+    "cuisine_types": [
+      "Modern Australian",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Fine dining vegan tasting menu"
+    ],
+    "summary_of_comments": "Special occasion, high-end service.",
+    "coordinates": {
+      "lat": -33.8656204,
+      "lng": 151.2087911,
+      "formatted_address": "27 O'Connell St, Sydney NSW 2000, Australia"
+    }
+  },
+  {
+    "title": "Pendolino",
+    "location": "Sydney",
+    "cuisine_types": [
+      "Italian",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Handmade vegan pasta"
+    ],
+    "summary_of_comments": "Upscale, accommodates vegan with set menu.",
+    "coordinates": {
+      "lat": -33.8694151,
+      "lng": 151.2071166,
+      "formatted_address": "Shop 100/412/414 George St, Sydney NSW 2000, Australia"
+    }
+  },
+  {
+    "title": "The Malaya",
+    "location": "Sydney",
+    "cuisine_types": [
+      "Malaysian",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Nasi lemak",
+      "Curries"
+    ],
+    "summary_of_comments": "Classics veganized, loyal following.",
+    "coordinates": {
+      "lat": -33.8623282,
+      "lng": 151.2073123,
+      "formatted_address": "225 George St, Sydney NSW 2000, Australia"
+    }
+  },
+  {
+    "title": "Yulli's",
+    "location": "Surry Hills",
+    "cuisine_types": [
+      "Modern Australian",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Asian-Inspired",
+      "Baklava ice cream"
+    ],
+    "summary_of_comments": "Fun, inventive tasting plates, raved-about desserts.",
+    "coordinates": {
+      "lat": -33.8863646,
+      "lng": 151.2136958,
+      "formatted_address": "417 Crown St, Surry Hills NSW 2010, Australia"
+    }
+  },
+  {
+    "title": "Flora",
+    "location": "Sydney",
+    "cuisine_types": [
+      "Modern Australian",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Fresh seasonal plates"
+    ],
+    "summary_of_comments": "Newer on the scene, praised for freshness.",
+    "coordinates": {
+      "lat": -33.8961747,
+      "lng": 151.1783851,
+      "formatted_address": "206 Australia St, Newtown NSW 2042, Australia"
+    }
+  },
+  {
+    "title": "Mark & Vinny’s",
+    "location": "Surry Hills",
+    "cuisine_types": [
+      "Italian",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Vegan pasta",
+      "Negroni cocktails"
+    ],
+    "summary_of_comments": "Noted for pasta, inventive cocktails.",
+    "coordinates": {
+      "lat": -33.8866701,
+      "lng": 151.2104161,
+      "formatted_address": "g07/38-52 Waterloo St, Surry Hills NSW 2010, Australia"
+    }
+  },
+  {
+    "title": "Bella Brutta",
+    "location": "Newtown",
+    "cuisine_types": [
+      "Italian",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Neapolitan pizza"
+    ],
+    "summary_of_comments": "Famed for crust and sauce, vegan cheese option available.",
+    "coordinates": {
+      "lat": -33.8932399,
+      "lng": 151.1836905,
+      "formatted_address": "135 King St, Newtown NSW 2042, Australia"
+    }
+  },
+  {
+    "title": "Alpha",
+    "location": "Sydney",
+    "cuisine_types": [
+      "Greek",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Greek vegan tasting"
+    ],
+    "summary_of_comments": "Boutique-style, generous portions, vegan set menus on request.",
+    "coordinates": {
+      "lat": -33.8672189,
+      "lng": 151.2016756,
+      "formatted_address": "4/25 Lime St, Sydney NSW 2000, Australia"
+    }
+  },
+  {
+    "title": "Apollo",
+    "location": "Potts Point",
+    "cuisine_types": [
+      "Greek",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Modern Greek"
+    ],
+    "summary_of_comments": "Multiple set menus, can accommodate vegans.",
+    "coordinates": {
+      "lat": -33.8708503,
+      "lng": 151.2253578,
+      "formatted_address": "44 Macleay St, Potts Point NSW 2011, Australia"
+    }
+  },
+  {
+    "title": "Cafe Sydney",
+    "location": "Sydney",
+    "cuisine_types": [
+      "Modern Australian",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "View dining"
+    ],
+    "summary_of_comments": "Fine dining, vegan options with views.",
+    "coordinates": {
+      "lat": -33.862079,
+      "lng": 151.2108919,
+      "formatted_address": "Level 5 Customs House, 31 Alfred St, Sydney NSW 2000, Australia"
+    }
+  },
+  {
+    "title": "Untied",
+    "location": "Barangaroo",
+    "cuisine_types": [
+      "Rooftop Bar",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Rooftop vegan brunch"
+    ],
+    "summary_of_comments": "Vegan crowd favourite, lively bar.",
+    "coordinates": {
+      "lat": -33.8655553,
+      "lng": 151.2019956,
+      "formatted_address": "Lvl 4/400 Barangaroo Ave, Barangaroo NSW 2000, Australia"
+    }
+  },
+  {
+    "title": "Quay",
+    "location": "Circular Quay",
+    "cuisine_types": [
+      "Fine Dining",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Vegan degustation (by request)"
+    ],
+    "summary_of_comments": "Book ahead for high-end vegan experience.",
+    "coordinates": {
+      "lat": -33.85756870000001,
+      "lng": 151.2100844,
+      "formatted_address": "Upper Level Overseas Passenger Terminal, The Rocks NSW 2000, Australia"
+    }
+  },
+  {
+    "title": "Poly",
+    "location": "Surry Hills",
+    "cuisine_types": [
+      "Modern Australian",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Seasonal menu"
+    ],
+    "summary_of_comments": "Menu changes often, caters for vegan diners.",
+    "coordinates": {
+      "lat": -33.8791576,
+      "lng": 151.2110326,
+      "formatted_address": "74-76 Commonwealth St, Surry Hills NSW 2010, Australia"
+    }
+  },
+  {
+    "title": "Yellow Deli",
+    "location": "Katoomba",
+    "cuisine_types": [
+      "Vegetarian",
+      "Cafe"
+    ],
+    "votes": null,
+    "specialties": [
+      "Cafe classics"
+    ],
+    "summary_of_comments": "Classic, but be aware of unique cult/ownership context.",
+    "coordinates": {
+      "lat": -33.8727409,
+      "lng": 151.2057136,
+      "formatted_address": "Sydney NSW, Australia"
+    }
+  },
+  {
+    "title": "Viand",
+    "location": "Woolloomooloo",
+    "cuisine_types": [
+      "Modern Australian",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Vegan tasting menu"
+    ],
+    "summary_of_comments": "Praised for creative fine dining.",
+    "coordinates": {
+      "lat": -33.8727104,
+      "lng": 151.2164045,
+      "formatted_address": "41 Crown St, Woolloomooloo NSW 2011, Australia"
+    }
+  },
+  {
+    "title": "Otto Ristorante",
+    "location": "Woolloomooloo",
+    "cuisine_types": [
+      "Italian",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Vegan degustation"
+    ],
+    "summary_of_comments": "Waterfront Italian, vegan banquet available.",
+    "coordinates": {
+      "lat": -33.8679993,
+      "lng": 151.2205922,
+      "formatted_address": "Area 8, 6 Cowper Wharf Roadway, Woolloomooloo NSW 2011, Australia"
+    }
+  },
+  {
+    "title": "Metisse",
+    "location": "Potts Point",
+    "cuisine_types": [
+      "French",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "French vegan options"
+    ],
+    "summary_of_comments": "Fine dining, vegan tasting menu on request.",
+    "coordinates": {
+      "lat": -33.8738227,
+      "lng": 151.2245543,
+      "formatted_address": "5/9 Roslyn St, Potts Point NSW 2011, Australia"
+    }
+  },
+  {
+    "title": "China Doll",
+    "location": "Woolloomooloo",
+    "cuisine_types": [
+      "Asian Fusion",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Asian modern classics"
+    ],
+    "summary_of_comments": "Fine dining Asian, vegan dishes flexible.",
+    "coordinates": {
+      "lat": -33.8687312,
+      "lng": 151.2202698,
+      "formatted_address": "4/6 Cowper Wharf Roadway, Woolloomooloo NSW 2011, Australia"
+    }
+  },
+  {
+    "title": "Mother Chu's Delight",
+    "location": "Haymarket",
+    "cuisine_types": [
+      "Chinese",
+      "Vegetarian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Traditional menu"
+    ],
+    "summary_of_comments": "Old-school vegetarian favourite, loyal following.",
+    "coordinates": {
+      "lat": -33.8790282,
+      "lng": 151.2042464,
+      "formatted_address": "1/86-88 Dixon St, Haymarket NSW 2000, Australia"
+    }
+  },
+  {
+    "title": "Bootleg Italian",
+    "location": "Paddington",
+    "cuisine_types": [
+      "Italian",
+      "Vegan"
+    ],
+    "votes": null,
+    "specialties": [
+      "Vegan set menu"
+    ],
+    "summary_of_comments": "Popular for vegan fine dining, mixes reviews on noise.",
+    "coordinates": {
+      "lat": -33.8855384,
+      "lng": 151.2285897,
+      "formatted_address": "312 Oxford St, Paddington NSW 2021, Australia"
+    }
+  },
+  {
+    "title": "Gigi Pizzeria",
+    "location": "Newtown",
+    "cuisine_types": [
+      "Vegan",
+      "Italian"
+    ],
+    "votes": null,
+    "specialties": [
+      "Neapolitan vegan pizza"
+    ],
+    "summary_of_comments": "Pioneer in Sydney's vegan pizza, often busy, always vegan.",
+    "coordinates": {
+      "lat": -33.899248,
+      "lng": 151.1776294,
+      "formatted_address": "379 King St, Newtown NSW 2042, Australia"
+    }
+  }
+]
